@@ -40,13 +40,12 @@ android {
 }
 
 dependencies {
-
     val work_version = "2.8.1"
     val okhttp_version = "4.11.0"
     implementation("androidx.work:work-runtime:$work_version")
     implementation("androidx.work:work-runtime-ktx:$work_version")
     implementation("com.squareup.okhttp3:okhttp:$okhttp_version")
-    implementation("com.squareup.okhttp3:logginginterceptor:$okhttp_version")
+    implementation("com.squareup.okhttp3:logging-interceptor:$okhttp_version")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
